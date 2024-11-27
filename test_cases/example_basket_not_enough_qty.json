@@ -1,0 +1,21 @@
+{
+    "Banana ID": {
+        "Name": "Banana Bunch (Wrapped)",
+        "Price": "0.80",
+        "Weight": "250g",
+        "Quantity": 3
+    },
+    "Tomato ID": {
+        "Name": "Pack of 6 Tomatoes",
+        "Price": "1.00",
+        "Weight": "200g",
+        "Quantity": 2
+    },
+
+    "Apple ID": {
+        "Name": "Pack of 6 Apples",
+        "Price": "2.00",
+        "Weight": "300g",
+        "Quantity": 10
+    }
+}

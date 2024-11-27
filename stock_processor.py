@@ -18,7 +18,12 @@ def process_stock(basket: dict, stocklist):
         # IF NO QUANTITY REMOVE FROM BASKET
         if stock == 0:
             basket.pop(item)
+            
+        elif basket[item]["Quantity"] > stock:
+            basket[item]["Quantity"] = stock
+            
 
     notifications = []
 
-    return (basket, notifications)
+    return basket, notifications
+
